@@ -16,6 +16,8 @@ Wire.endTransmission(true);
 Serial.begin(9600);
 myservo1.attach(9);
 myservo2.attach(10);
+//myservo1 is the servo next to breadboard
+//myservo2 is the others
 //myservo1.write(100);
 //myservo2.write(100);
 }
